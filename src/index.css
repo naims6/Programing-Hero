@@ -6,6 +6,13 @@
   .container2 {
     @apply w-full max-w-[1400px] mx-auto px-[4%] md:px-[5%];
   }
+  .gradient-text {
+    background: linear-gradient(90deg, #e855de 0%, #5400ee 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
 }
 
 @layer utilities {

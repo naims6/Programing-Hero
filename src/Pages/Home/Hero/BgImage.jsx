@@ -43,7 +43,7 @@ const BgImage = () => {
             src="/assets/bg_image/bg-bottom.png"
             alt=""
           />
-          <div className="absolute bottom-0 left-0 h-full w-full bg-gradient-to-t from-black to-transparent"></div>
+          <div className="absolute bottom-0 left-0 h-full w-full bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
         </div>
       </div>
     </>
