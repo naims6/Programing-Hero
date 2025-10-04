@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <div className="overflow-hidden">
-        <div className="fixed top-0 left-0 w-full z-999">
+        <div className="fixed top-0 left-0 w-full z-999 shadow">
           <div className=" w-full backdrop-blur-[10px]">
             <div className="flex items-center min-h-[4.5rem] container2">
               <div className="navbar-start">
