@@ -12,4 +12,7 @@
   .font-grotesk {
     font-family: "Space Grotesk", sans-serif;
   }
+  .bg-primary {
+    background-color: #0f0f0f;
+  }
 }
