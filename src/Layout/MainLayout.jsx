@@ -7,9 +7,9 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-[600px] pt-[4rem]">
-        <Outlet />
-      </main>
+
+      <Outlet />
+
       <Footer />
     </>
   );
