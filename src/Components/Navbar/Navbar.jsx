@@ -14,7 +14,7 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-end">
-            <ul className="hidden md:flex gap-12">
+            <ul className="hidden lg:flex gap-12">
               <li>
                 <Link to="/">Home</Link>
               </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <Link to="/success">Success</Link>
               </li>
             </ul>
-            <button className="md:hidden">
+            <button className="lg:hidden">
               <img src="/assets/bg_image/menu.svg" alt="" />
             </button>
           </div>
