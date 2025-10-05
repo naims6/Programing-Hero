@@ -9,7 +9,7 @@ const MobileAppSection = () => {
       <Content />
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -z-10 w-full ">
         <img
-          className="lg:w-full h-[800px] min-[2140px]:h-[1400px] object-none lg:object-cover"
+          className="lg:w-full h-[650px] lg:h-[800px] min-[2140px]:h-[1400px] object-none lg:object-cover"
           src="/assets/bg_image/mobile-app-section-bg.png"
         />
       </div>

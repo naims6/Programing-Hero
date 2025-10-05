@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../../Components/Home/Title";
+import Title from "../../../Components/Home/Title";
 import Banner from "./Banner";
 
 const OurMission = () => {

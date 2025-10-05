@@ -5,7 +5,7 @@
     "name": "Alif Rahman",
     "jobCategory": "Software Engineer",
     "companyName": "NextGen Solutions",
-    "image": "/public/assets/student_image/student (1).jpeg",
+    "image": "/assets/student_image/student1.jpeg",
     "batch": 1
   },
   {
@@ -14,7 +14,7 @@
     "name": "Fatima Akhter",
     "jobCategory": "Frontend Developer",
     "companyName": "Creative Minds Inc.",
-    "image": "/public/assets/student_image/student (2).jpeg",
+    "image": "/assets/student_image/student2.png",
     "batch": 2
   },
   {
@@ -23,7 +23,7 @@
     "name": "Kamal Hossain",
     "jobCategory": "Full Stack Developer",
     "companyName": "Tech Innovators",
-    "image": "/public/assets/student_image/student (3).jpeg",
+    "image": "/assets/student_image/student3.jpeg",
     "batch": 3
   },
   {
@@ -32,7 +32,7 @@
     "name": "Sadia Islam",
     "jobCategory": "React Developer",
     "companyName": "Digital Wave",
-    "image": "/public/assets/student_image/student (4).jpeg",
+    "image": "/assets/student_image/student4.png",
     "batch": 4
   }
 ]
