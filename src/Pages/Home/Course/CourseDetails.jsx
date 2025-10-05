@@ -14,7 +14,7 @@ const CourseDetails = () => {
         <div className="flex w-full xl:max-w-8/10 mx-auto flex-col-reverse lg:flex-row justify-between items-center gap-10 md:gap-16">
           {/* Content part */}
           <div className="flex-1 text-left lg:text-right">
-            <h1 className="text-4xl gradient-text  bg-[linear-gradient(70deg,_#4B75F1_9.27%,_#3065FF_92.91%)]">
+            <h1 className="text-3xl md:text-4xl gradient-text  bg-[linear-gradient(70deg,_#4B75F1_9.27%,_#3065FF_92.91%)]">
               Start your programming journey in CSE Fundamental
             </h1>
             <p className="font-grotesk text-base py-7">
@@ -30,7 +30,7 @@ const CourseDetails = () => {
                   background:
                     "linear-gradient(90deg, #6892FF 0.01%, #1555B5 100%)",
                 }}
-                className="px-7 py-2 rounded-md font-medium text-xl cursor-pointer"
+                className="px-5 md:px-7 py-2 md:py-3 rounded-md font-medium text-xl cursor-pointer"
               >
                 Explore
               </button>
@@ -56,7 +56,7 @@ const CourseDetails = () => {
                   alt=""
                 />
               </figure>
-              <h1 className="text-2xl md:text-3xl whitespace-nowrap font-semibold py-5">
+              <h1 className="text-xl md:text-2xl lg:text-3xl whitespace-nowrap font-semibold py-5">
                 CSE Fundamental With Phitron
               </h1>
               <button

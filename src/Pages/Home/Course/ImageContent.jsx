@@ -18,14 +18,14 @@ const ImageContent = () => {
             alt=""
           />
         </figure>
-        <h1 className="text-2xl md:text-3xl whitespace-nowrap font-semibold py-5">
+        <h1 className="text-xl md:text-2xl lg:text-3xl whitespace-nowrap font-semibold py-5">
           Complete Web Development
         </h1>
         <button
           style={{
             background: "linear-gradient(90deg, #E855DE 0.01%, #5400EE 100%)",
           }}
-          className="px-7 py-3 rounded-md font-medium text-xl cursor-pointer"
+          className="px-5 md:px-7 py-2 md:py-3 rounded-md font-medium text-xl cursor-pointer"
         >
           Let's Code
         </button>
