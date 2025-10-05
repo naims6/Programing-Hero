@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[url(/assets/bg_image/footer-bg.png)] bg-[#213d55] bg-no-repeat bg-cover">
+    <footer className="bg-[radial-gradient(rgba(1,65,255,0.4),rgba(1,65,255,0)),url('/assets/bg_image/footer-bg.png')] bg-cover bg-center bg-no-repeat">
       <div className="footer sm:footer-horizontal  text-base-content py-10 container2">
         <nav>
           <p className="max-w-[280px] w-full mt-10">
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </nav>
       </div>
-      <div className="container2 flex items-center justify-between pb-10 mt-5">
+      <div className="container2 flex flex-col lg:flex-row items-center justify-between pb-10 mt-5">
         <div>
           <h1 className="mb-3">Pay with</h1>
           <img src="/assets/bg_image/footer-image1.png" />

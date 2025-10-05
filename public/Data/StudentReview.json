@@ -1,7 +1,7 @@
 [
   {
     "id": "ph-review-01",
-    "review": "Programming Hero transformed my life. The constant support from the mentors and the well-structured curriculum helped me land my dream job. It's more than a course; it's a community that fosters growth.",
+    "review": "Programming Hero completely transformed my life. Before joining, I was unsure about my career path, but their well-structured curriculum gave me a clear roadmap. The constant support from the mentors was incredible; they were always patient and ready to explain concepts until I truly understood them. It's so much more than a course; it's a dedicated community that genuinely fosters growth and helped me land my dream job as a Software Engineer.",
     "name": "Alif Rahman",
     "jobCategory": "Software Engineer",
     "companyName": "NextGen Solutions",
@@ -10,7 +10,7 @@
   },
   {
     "id": "ph-review-02",
-    "review": "I was a complete beginner, but the way they teach is just amazing. They break down complex topics into simple, understandable modules. The team is always there to solve your doubts, no matter how small.",
+    "review": "As a complete beginner, I found their teaching method to be simply amazing. They have a unique talent for breaking down extremely complex topics into simple, digestible modules that are easy to follow. I never felt intimidated. The support team is always there to solve your doubts, no matter how small or insignificant you think they are. That constant encouragement was key to my success.",
     "name": "Fatima Akhter",
     "jobCategory": "Frontend Developer",
     "companyName": "Creative Minds Inc.",
@@ -19,7 +19,7 @@
   },
   {
     "id": "ph-review-03",
-    "review": "The job placement support is phenomenal. They don't just teach you to code; they prepare you for the real-world job market with mock interviews and resume building sessions. Highly recommended!",
+    "review": "The job placement support is truly phenomenal and sets them apart. They don't just teach you how to code; they meticulously prepare you for the competitive job market. The mock interviews were intense but incredibly helpful in building my confidence, and their guidance on resume building made my profile stand out to recruiters. I started getting interview calls almost immediately. Highly recommended!",
     "name": "Kamal Hossain",
     "jobCategory": "Full Stack Developer",
     "companyName": "Tech Innovators",
@@ -28,7 +28,7 @@
   },
   {
     "id": "ph-review-04",
-    "review": "The community is the best part. You learn with so many passionate people, and the team spirit is incredible. Whenever I felt stuck, someone was always there to help. Thank you, Programming Hero!",
+    "review": "For me, the community was the absolute best part of the experience. You are surrounded by so many passionate and driven people, and the team spirit is incredible. Learning to code can be a lonely journey, but here, I never felt alone. Whenever I felt stuck on a difficult problem, someone from the community was always there to help, day or night. That collaborative environment is priceless. Thank you, Programming Hero!",
     "name": "Sadia Islam",
     "jobCategory": "React Developer",
     "companyName": "Digital Wave",
