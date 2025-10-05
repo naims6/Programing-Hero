@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ph-review-01",
+    "review": "Programming Hero transformed my life. The constant support from the mentors and the well-structured curriculum helped me land my dream job. It's more than a course; it's a community that fosters growth.",
+    "name": "Alif Rahman",
+    "jobCategory": "Software Engineer",
+    "companyName": "NextGen Solutions",
+    "image": "/public/assets/student_image/student (1).jpeg",
+    "batch": 1
+  },
+  {
+    "id": "ph-review-02",
+    "review": "I was a complete beginner, but the way they teach is just amazing. They break down complex topics into simple, understandable modules. The team is always there to solve your doubts, no matter how small.",
+    "name": "Fatima Akhter",
+    "jobCategory": "Frontend Developer",
+    "companyName": "Creative Minds Inc.",
+    "image": "/public/assets/student_image/student (2).jpeg",
+    "batch": 2
+  },
+  {
+    "id": "ph-review-03",
+    "review": "The job placement support is phenomenal. They don't just teach you to code; they prepare you for the real-world job market with mock interviews and resume building sessions. Highly recommended!",
+    "name": "Kamal Hossain",
+    "jobCategory": "Full Stack Developer",
+    "companyName": "Tech Innovators",
+    "image": "/public/assets/student_image/student (3).jpeg",
+    "batch": 3
+  },
+  {
+    "id": "ph-review-04",
+    "review": "The community is the best part. You learn with so many passionate people, and the team spirit is incredible. Whenever I felt stuck, someone was always there to help. Thank you, Programming Hero!",
+    "name": "Sadia Islam",
+    "jobCategory": "React Developer",
+    "companyName": "Digital Wave",
+    "image": "/public/assets/student_image/student (4).jpeg",
+    "batch": 4
+  }
+]

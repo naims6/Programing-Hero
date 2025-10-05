@@ -3,6 +3,7 @@ import Hero from "./Hero/Hero";
 import Course from "./Course/Course";
 import OurMission from "../OurMission/OurMission";
 import MobileAppSection from "./MobileAppSection/MobileAppSection";
+import SuccessStory from "./SuccessStory/SuccessStory";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Course />
       <MobileAppSection />
+      <SuccessStory />
       <OurMission />
     </>
   );
