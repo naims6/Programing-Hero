@@ -1,6 +1,29 @@
+import { useEffect, useState } from "react";
+
 const StudentCard = ({ studentReview }) => {
-  const { review, batch, name, jobCategory, companyName, image } =
+  const [background, setBackground] = useState("");
+  const { review, batch, name, jobCategory, companyName, image, bg } =
     studentReview;
+
+  useEffect(() => {
+    if (bg === "a") {
+      setBackground(
+        "bg-[linear-gradient(161deg,_#E21CE2_0%,_rgba(77,_6,_55,_0.00)_100%)]"
+      );
+    } else if (bg === "b") {
+      setBackground(
+        "bg-[linear-gradient(161deg,_#1CE2BF_0%,_rgba(6,_68,_77,_0.00)_100%)]"
+      );
+    } else if (bg === "c") {
+      setBackground(
+        "bg-[linear-gradient(161deg,_#E2871C_0%,_rgba(77,_65,_6,_0.00)_100%)]"
+      );
+    } else if (bg === "d") {
+      setBackground(
+        "bg-[linear-gradient(161deg,_#371CE2_0%,_rgba(37,_6,_77,_0.00)_100%)]"
+      );
+    }
+  }, [bg]);
 
   return (
     <div className="card shadow-sm p-5 rounded-2xl overflow-hidden z-10">
@@ -27,10 +50,11 @@ const StudentCard = ({ studentReview }) => {
       </div>
 
       {/* background effect */}
-      <div className="absolute p-6 inset-0 w-full h-full bg-[linear-gradient(161deg,_#E21CE2_0%,_rgba(77,_6,_55,_0.00)_100%)] opacity-40 -z-10 backdrop-blur-md"></div>
+      <div
+        className={`absolute p-6 inset-0 w-full h-full ${background}  opacity-40 -z-10 backdrop-blur-md`}
+      ></div>
     </div>
   );
 };
 
 export default StudentCard;
-<h1>Student</h1>;

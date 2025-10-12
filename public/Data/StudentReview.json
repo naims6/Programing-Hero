@@ -6,7 +6,8 @@
     "jobCategory": "Software Engineer",
     "companyName": "NextGen Solutions",
     "image": "/assets/student_image/student1.jpeg",
-    "batch": 1
+    "batch": 1,
+    "bg": "a"
   },
   {
     "id": "ph-review-02",
@@ -15,7 +16,8 @@
     "jobCategory": "Frontend Developer",
     "companyName": "Creative Minds Inc.",
     "image": "/assets/student_image/student2.png",
-    "batch": 2
+    "batch": 2,
+    "bg": "b"
   },
   {
     "id": "ph-review-03",
@@ -24,7 +26,8 @@
     "jobCategory": "Full Stack Developer",
     "companyName": "Tech Innovators",
     "image": "/assets/student_image/student3.jpeg",
-    "batch": 3
+    "batch": 3,
+    "bg": "c"
   },
   {
     "id": "ph-review-04",
@@ -33,6 +36,7 @@
     "jobCategory": "React Developer",
     "companyName": "Digital Wave",
     "image": "/assets/student_image/student4.png",
-    "batch": 4
+    "batch": 4,
+    "bg": "d"
   }
 ]
