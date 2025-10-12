@@ -4,9 +4,24 @@ import Banner from "./Banner";
 
 const OurMission = () => {
   return (
-    <div className="bg-primary py-16 md:py-20">
-      <Title>Our Mission_</Title>
+    <div className="bg-primary py-16 md:py-20 relative">
+      <div className="lg:pt-36">
+        <Title>Our Mission_</Title>
+      </div>
       <Banner />
+
+      <div>
+        <img
+          className="absolute top-0 left-[4%] size-44"
+          src="/public/assets/bg_image/triangle-bg.svg"
+          alt=""
+        />
+        <img
+          className="absolute top-20 right-[4%] size-40"
+          src="/public/assets/bg_image/squre-bg.svg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

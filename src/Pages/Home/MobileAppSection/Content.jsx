@@ -40,12 +40,12 @@ const Content = () => {
           </p>
           <div className="flex gap-3.5 md:gap-5 items-center justify-center">
             <img
-              className="w-[9rem] lg:w-[12rem]"
+              className="w-[9rem] lg:w-[12rem] cursor-pointer"
               src="/assets/bg_image/appStore.svg"
               alt=""
             />
             <img
-              className="w-[9rem] lg:w-[12rem]"
+              className="w-[9rem] lg:w-[12rem] cursor-pointer"
               src="/assets/bg_image/googlePlay.svg"
               alt=""
             />

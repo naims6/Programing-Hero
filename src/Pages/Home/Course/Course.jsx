@@ -5,9 +5,22 @@ import CourseDetails from "./CourseDetails";
 const Course = () => {
   return (
     <div className="bg-primary">
-      <div className="px-3 py-16 md:py-32">
+      <div className="px-3 py-16 md:py-32 relative">
         <Title>Our Courses_</Title>
         <CourseDetails />
+        {/* background image */}
+        <div className="">
+          <img
+            className="hidden lg:block absolute right-0 top-16 size-48"
+            src="/assets/bg_image/triangle-bg.svg"
+            alt="triangle-bg"
+          />
+          <img
+            className="hidden lg:block absolute left-0 bottom-12 size-48"
+            src="/assets/bg_image/squre-bg.svg"
+            alt="triangle-bg"
+          />
+        </div>
       </div>
     </div>
   );
