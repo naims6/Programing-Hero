@@ -15,9 +15,11 @@ const Content = ({ handleExplore }) => {
         onClick={handleExplore}
         className="cursor-pointer bg-[url('https://www.programming-hero.com/banner/explore-btn.svg')] bg-contain bg-no-repeat w-[250px] py-5 text-base mt-4 md:mt-5"
       >
-        <span className="-translate-y-2 block cursor-pointer font-semibold leading-6">
-          Explore
-        </span>
+        <a href="https://web.programming-hero.com/home">
+          <span className="-translate-y-2 block cursor-pointer font-semibold leading-6">
+            Explore
+          </span>
+        </a>
       </button>
     </div>
   );
