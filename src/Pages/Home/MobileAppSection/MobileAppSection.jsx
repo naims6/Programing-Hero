@@ -4,7 +4,7 @@ import Content from "./Content";
 
 const MobileAppSection = () => {
   return (
-    <div className="bg-primary relative z-10 min-[2140px]:pb-[500px]">
+    <div className="bg-primary relative z-10 min-[2140px]:pb-[500px] pt-10">
       <Title>Are you absolute_ Beginner?</Title>
       <Content />
       {/* background helper image  */}

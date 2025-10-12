@@ -64,7 +64,7 @@ const CourseDetails = () => {
                   background:
                     "linear-gradient(90deg, #6892FF 0.01%, #1555B5 100%)",
                 }}
-                className="px-7 py-3 rounded-md font-medium text-xl cursor-pointer"
+                className="px-5 md:px-7 py-2 md:py-3 rounded-md font-medium text-xl cursor-pointer"
               >
                 Let's Code
               </button>

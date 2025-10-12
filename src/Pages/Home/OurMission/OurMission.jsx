@@ -9,19 +9,17 @@ const OurMission = () => {
         <Title>Our Mission_</Title>
       </div>
       <Banner />
-
-      <div>
-        <img
-          className="absolute top-0 left-[4%] size-44"
-          src="/public/assets/bg_image/triangle-bg.svg"
-          alt=""
-        />
-        <img
-          className="absolute top-20 right-[4%] size-40"
-          src="/public/assets/bg_image/squre-bg.svg"
-          alt=""
-        />
-      </div>
+      {/* our mission sub background */}
+      <img
+        className="hidden lg:block absolute top-0 left-[4%] size-44"
+        src="/assets/bg_image/triangle-bg.svg"
+        alt=""
+      />
+      <img
+        className="hidden lg:block absolute top-20 right-[4%] size-40"
+        src="/assets/bg_image/squre-bg.svg"
+        alt=""
+      />
     </div>
   );
 };
