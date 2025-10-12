@@ -1,16 +1,38 @@
-# React + Vite
+# 🧑‍💻 Programming Hero Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **clone of the Programming Hero homepage**, built with **React** and **Tailwind CSS**.  
+This project was created as part of my portfolio to strengthen my front-end development skills and learn how to recreate real-world website designs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 [View Live Site](https://myph.surge.sh/)  
+🔗 [GitHub Repository](https://github.com/naims6/Programing-Hero)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 💻 JavaScript (ES6+)
+- 🌐 Git & GitHub
+
+---
+
+## 🎯 What I Learned
+
+Through this project, I learned how to:
+
+- Recreate real-world website layouts using **React components**
+- Style with **Tailwind CSS utility classes**
+- Manage assets and responsive breakpoints
+- Use **React props, state, and hooks** in UI components
+- Deploy React apps using **Surge**
+
+---
+
+## 📸 Screenshots
+
+![Desktop View](/webpage/ph-homepage.png)
