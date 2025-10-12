@@ -8,11 +8,13 @@ import OurMission from "./OurMission/OurMission";
 const Home = () => {
   return (
     <>
-      <Hero />
-      <Course />
-      <MobileAppSection />
-      <SuccessStory />
-      <OurMission />
+      <div className="overflow-hidden">
+        <Hero />
+        <Course />
+        <MobileAppSection />
+        <SuccessStory />
+        <OurMission />
+      </div>
     </>
   );
 };
