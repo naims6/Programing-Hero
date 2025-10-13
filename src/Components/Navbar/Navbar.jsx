@@ -1,24 +1,52 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import MobileNavbar from "./MobileNavbar";
 import Menu from "/assets/bg_image/menu.svg";
 import MenuClose from "/assets/bg_image/menu-close.svg";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const mobileDropdownRef = useRef("");
+  const menuBtnRef = useRef();
+  const menuContainerRef = useRef();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
-    setIsOpen(!isOpen);
-    if (mobileDropdownRef.current.classList.contains("left-[150%]")) {
-      mobileDropdownRef.current.classList.remove("left-[150%]");
-      mobileDropdownRef.current.classList.add("left-[50%]");
-    } else {
-      mobileDropdownRef.current.classList.add("left-[150%]");
-      mobileDropdownRef.current.classList.remove("left-[50%]");
-    }
+    setIsMenuOpen((prev) => !prev);
   };
 
+  useEffect(() => {
+    const handleMenuOutsideClick = (e) => {
+      if (
+        isMenuOpen &&
+        !menuBtnRef.current.contains(e.target) &&
+        !menuContainerRef.current.contains(e.target)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleMenuOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleMenuOutsideClick);
+    };
+  }, [isMenuOpen]);
+
+  const lists = (
+    <>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/">Products</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to="/success">Success</Link>
+      </li>
+    </>
+  );
   return (
     <>
       <div className="overflow-hidden">
@@ -36,31 +64,26 @@ const Navbar = () => {
               </div>
 
               <div className="navbar-end">
-                <ul className="hidden lg:flex gap-12">
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Products</Link>
-                  </li>
-                  <li>
-                    <Link to="/about">About</Link>
-                  </li>
-                  <li>
-                    <Link to="/success">Success</Link>
-                  </li>
-                </ul>
+                <ul className="hidden lg:flex gap-12">{lists}</ul>
                 <button
                   onClick={handleMenuClick}
                   className="lg:hidden cursor-pointer"
                 >
-                  <img src={`${isOpen ? MenuClose : Menu}`} alt="" />
+                  <img
+                    ref={menuBtnRef}
+                    src={`${isMenuOpen ? MenuClose : Menu}`}
+                    alt="menubtn"
+                  />
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <MobileNavbar mobileDropdownRef={mobileDropdownRef} />
+        <MobileNavbar
+          isMenuOpen={isMenuOpen}
+          menuContainerRef={menuContainerRef}
+          setIsMenuOpen={setIsMenuOpen}
+        />
       </div>
     </>
   );
