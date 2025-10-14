@@ -1,17 +1,19 @@
 import React from "react";
 import ImageContent from "./ImageContent";
 import Content from "./Content";
+import useScrollAnimation from "../../../Animation/ScrollAnimation";
 const CourseDetails = () => {
+  useScrollAnimation();
   return (
     <div className="pt-10 lg:pt-16 bg-[url('/assets/bg_image/course-bg.png')] bg-no-repeat bg-contain mt-24">
       <div className="flex flex-col gap-24 container2">
         {/* wev development course */}
-        <div className="flex w-full xl:max-w-9/10 mx-auto flex-col lg:flex-row justify-between items-center gap-10 md:gap-16">
+        <div className="animation-bottom flex w-full xl:max-w-9/10 mx-auto flex-col lg:flex-row justify-between items-center gap-10 md:gap-16">
           <ImageContent />
           <Content />
         </div>
         {/* phitron course */}
-        <div className="flex w-full xl:max-w-8/10 mx-auto flex-col-reverse lg:flex-row justify-between items-center gap-10 md:gap-16">
+        <div className="animation-bottom flex w-full xl:max-w-9/10 mx-auto flex-col-reverse lg:flex-row justify-between items-center gap-10 md:gap-16">
           {/* Content part */}
           <div className="flex-1 text-left lg:text-right">
             <h1 className="text-3xl md:text-4xl gradient-text  bg-[linear-gradient(70deg,_#4B75F1_9.27%,_#3065FF_92.91%)]">

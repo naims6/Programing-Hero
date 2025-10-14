@@ -1,16 +1,18 @@
 import React from "react";
 import Title from "../../../Components/Home/Title";
 import Content from "./Content";
+import useScrollAnimation from "../../../Animation/ScrollAnimation";
 
 const MobileAppSection = () => {
+  useScrollAnimation("animation-left");
   return (
     <div className="bg-primary relative z-10 min-[2140px]:pb-[500px] pt-10">
       <Title>Are you absolute_ Beginner?</Title>
       <Content />
       {/* background helper image  */}
-      <div className="">
+      <div>
         <img
-          className="hidden lg:block absolute top-10 left-[4%] size-24"
+          className="animation-left hidden lg:block absolute top-10 left-[4%] size-24"
           src="/assets/bg_image/planet-bg.svg"
           alt=""
         />
@@ -20,7 +22,7 @@ const MobileAppSection = () => {
           alt=""
         />
         <img
-          className="hidden lg:block absolute top-48 right-[5%] size-44"
+          className="animation-left hidden lg:block absolute top-48 right-[5%] size-44"
           src="/assets/bg_image/triangle-bg.svg"
           alt=""
         />

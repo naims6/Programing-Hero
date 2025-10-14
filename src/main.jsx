@@ -3,6 +3,8 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import "./index.css";
+import "./Css/Animation.css";
+import "./Animation/ScrollAnimation.jsx";
 import MainLayout from "./Layout/MainLayout.jsx";
 import Home from "./Pages/Home/Home.jsx";
 import Success from "./Pages/Success/Success.jsx";

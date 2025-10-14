@@ -1,0 +1,21 @@
+.animation-bottom {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+.animation-bottom.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.animation-left {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+.animation-left.show {
+  transform: translateX(0);
+  opacity: 1;
+}

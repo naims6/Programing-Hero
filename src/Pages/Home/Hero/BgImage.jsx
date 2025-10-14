@@ -8,24 +8,24 @@ const BgImage = () => {
       <div className="hidden lg:flex absolute left-0 top-[4.5rem] lg:px-48 xl:px-60 w-full justify-between">
         <div className="flex gap-10 flex-col">
           <img
-            className="size-48 bounce"
+            className="size-48 bounce protect-img"
             src="/assets/bg_image/css3.svg"
             alt=""
           />
           <img
-            className="size-56 -translate-x-16 rotate15"
+            className="size-56 -translate-x-16 rotate15 protect-img"
             src="/assets/bg_image/tailwind.svg"
             alt=""
           />
         </div>
         <div className=" flex gap-10 flex-col">
           <img
-            className="size-48 spin"
+            className="size-48 spin protect-img"
             src="/assets/bg_image/react.svg"
             alt=""
           />
           <img
-            className="size-56 translate-x-20 pulse"
+            className="size-56 translate-x-20 pulse protect-img"
             src="/assets/bg_image/js.svg"
             alt=""
           />
